@@ -1,0 +1,31 @@
+<!--pages/user/user.wxml-->
+<view>
+  <!-- 用户信息/登录键 -->
+  <view wx:if="{{userInfo.avatarUrl}}">
+    <!-- <image class = "backgroundImage" src= "{{userInfo.avatarUrl}}"></image> -->
+    <image class="backgroundImage" src="https://s3.ax1x.com/2020/11/24/DNW1RH.jpg"></image>
+    <image class = "usericon" alignitems: center; src= "{{userInfo.avatarUrl}}"></image>
+
+    <text class = "userid">{{userInfo.nickName}}</text>
+      <!-- 功能条 -->
+    <view class="barHolder">
+      <!-- 设置界面 -->
+      <navigator class="settingBar">设置</navigator>
+      <!-- 黑卡绑定界面 -->
+      <navigator class="settingBar">黑卡绑定</navigator>
+      <!-- credit界面 -->
+      <navigator class="settingBarLast">关于</navigator>
+    </view>
+
+
+   
+   
+   
+   
+    <!-- <button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber" class = "getnumberbutton">授权手机号码并查看黑卡</button> -->
+    <!-- 无法获得授权QAQ -->
+  </view>
+  <view class="userloginbutton" wx:else >
+    <navigator url="/pages/loginpage/loginpage" class="loginNaviBar" >登录</navigator>
+  </view>
+</view>

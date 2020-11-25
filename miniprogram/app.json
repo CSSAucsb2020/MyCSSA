@@ -1,6 +1,13 @@
 {
   "pages": [
+<<<<<<< Updated upstream
     "pages/index/index",
+=======
+    "pages/myIndex/myIndex",
+    "pages/user/user",
+    "pages/index/index",
+    "pages/loginpage/loginpage",
+>>>>>>> Stashed changes
     "pages/userConsole/userConsole",
     "pages/storageConsole/storageConsole",
     "pages/databaseGuide/databaseGuide",
@@ -21,6 +28,24 @@
     "navigationBarTitleText": "云开发 QuickStart",
     "navigationBarTextStyle": "black"
   },
+<<<<<<< Updated upstream
+=======
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#000000",
+    "backgroundColor": "fff",
+    "list": [{
+      "pagePath": "pages/myIndex/myIndex",
+      "text": "myIndex"
+    },{
+      "pagePath": "pages/user/user",
+      "text": "user"
+    }, {
+      "pagePath": "pages/index/index",
+      "text": "index"
+    }]
+  },
+>>>>>>> Stashed changes
   "sitemapLocation": "sitemap.json",
   "style": "v2"
 }

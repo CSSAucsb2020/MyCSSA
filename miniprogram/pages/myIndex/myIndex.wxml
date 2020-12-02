@@ -13,17 +13,13 @@
     </block>
   </swiper>
   <!-- 按钮们嘟嘟嘟 -->
-  <view class="iconLayer">
-    <image class="iconImage" src="https://s3.ax1x.com/2020/11/24/DNGIYD.png"></image>
-    <image class="iconImage" src="https://s3.ax1x.com/2020/11/24/DNG5FO.jpg"></image>
-    <image class="iconImage" src="https://s3.ax1x.com/2020/11/24/DNGhTK.jpg"></image>
-    <image class="iconImage" src="https://s3.ax1x.com/2020/11/24/DNGfw6.jpg"></image>
-  </view>
-  <view class = "iconLayer" >
-    <text class="iconText">按钮</text>
-    <text class="iconText">按钮</text>
-    <text class="iconText">按钮</text>
-    <text class="iconText">按钮</text>
+  <view class="button-image">
+    <view class="txt" wx:for="{{imgs1}}" wx:key="index">
+      <image class="im" src="{{item.url}}" bindtap="{{item.navigator}}" data-id="{{index}}"></image>
+      <view class="t">
+        {{item.name}}
+      </view>
+    </view>
   </view>
   <!-- 嘟嘟嘟推文们 -->
   <image class="blogEntry" src="https://s3.ax1x.com/2020/11/24/DNBU9x.png"></image>

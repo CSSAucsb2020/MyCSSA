@@ -1,0 +1,17 @@
+<!--pages/sponsor1/sponsor1.wxml-->
+<view class = "page">
+  <text class = "title">{{restaurant.name}}</text>
+  <image class="img" src="{{restaurant.url}}"></image>
+  <view class = "intro">
+    <view class = "intro_text">
+      <text>{{restaurant.text}}</text>
+    </view>
+  </view>
+  <view wx:if="{{isMember}}">
+    <button type="primary" bindtap="modalBtn1" >点击查看优惠码</button>
+  </view>
+  <view wx:else>
+    <button type="primary" style="width:350rpx" bindtap="modalBtn2">成为会员/验证登录</button>
+  </view>
+</view>
+

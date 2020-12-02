@@ -1,3 +1,4 @@
+var app = getApp();
 Page({
   data: {
       //判断小程序的API，回调，参数，组件等是否在当前版本可用。
@@ -60,6 +61,9 @@ Page({
           that.setData({
               isHide: false
           });
+          getApp().globalData.isAuthorized = true;
+          console.log("is it authorized?" + app.globalData.isAuthorized);
+          this.onLoad();
           // 获取unionid  个体无法调用API
         //   wx.request({
         //     url: openIdUrl,

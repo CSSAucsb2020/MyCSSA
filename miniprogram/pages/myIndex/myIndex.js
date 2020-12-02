@@ -16,9 +16,31 @@ Page({
       id: 2,
       link: "https://s3.ax1x.com/2020/11/24/DNKqaQ.png"
     }],
+    imgs1:[
+      { url: 'https://s3.ax1x.com/2020/11/24/DNGIYD.png', 
+        name: '优惠',
+        id:"0",
+        navigator: "sponsorNavigate"},
+      { url: 'https://s3.ax1x.com/2020/11/24/DNG5FO.jpg', 
+        name: '按钮',
+        id:"1",
+        navigator: "sponsorNavigate"},
+      { url: 'https://s3.ax1x.com/2020/11/24/DNGhTK.jpg', 
+        name: '按钮',
+        id:"2",
+        navigator: "sponsorNavigate"},
+      { url: 'https://s3.ax1x.com/2020/11/24/DNGfw6.jpg', 
+        name: '按钮',
+        id:"3",
+        navigator: "sponsorNavigate"},
+    ],
     info:""
   },
-
+  sponsorNavigate: function (e) {
+    wx.navigateTo({
+      url: '../sponsorList/sponsorList',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

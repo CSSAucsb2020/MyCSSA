@@ -15,8 +15,6 @@ App({
       })
     }
 
-    this.globalData = {
-      isAuthorized : false
-    }
+    this.globalData = {}
   }
 })

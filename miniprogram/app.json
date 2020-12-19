@@ -1,9 +1,6 @@
 {
   "pages": [
-    "pages/myIndex/myIndex",
-    "pages/user/user",
     "pages/index/index",
-    "pages/loginpage/loginpage",
     "pages/userConsole/userConsole",
     "pages/storageConsole/storageConsole",
     "pages/databaseGuide/databaseGuide",
@@ -15,20 +12,7 @@
     "pages/openapi/callback/callback",
     "pages/openapi/cloudid/cloudid",
     "pages/im/im",
-    "pages/im/room/room",
-    "pages/sponsorList/sponsorList",
-    "pages/sponsor1/sponsor1",
-    "pages/sponsor2/sponsor2",
-    "pages/sponsor3/sponsor3",
-    "pages/sponsor4/sponsor4",
-    "pages/sponsor5/sponsor5",
-    "pages/sponsor6/sponsor6",
-    "pages/sponsor7/sponsor7",
-    "pages/sponsor8/sponsor8",
-    "pages/sponsor9/sponsor9",
-    "pages/sponsor10/sponsor10",
-    "pages/sponsor11/sponsor11",
-    "pages/sponsor12/sponsor12"
+    "pages/im/room/room"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -37,23 +21,6 @@
     "navigationBarTitleText": "云开发 QuickStart",
     "navigationBarTextStyle": "black"
   },
-
-  "tabBar": {
-    "color": "#000000",
-    "selectedColor": "#000000",
-    "backgroundColor": "fff",
-    "list": [{
-      "pagePath": "pages/myIndex/myIndex",
-      "text": "myIndex"
-    },{
-      "pagePath": "pages/user/user",
-      "text": "user"
-    }, {
-      "pagePath": "pages/index/index",
-      "text": "index"
-    }]
-  },
-
   "sitemapLocation": "sitemap.json",
   "style": "v2"
 }

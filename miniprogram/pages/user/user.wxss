@@ -1,0 +1,126 @@
+/* pages/user/user.wxss */
+
+
+.loginbutton{
+  position: relative;
+  top:500rpx;
+  font: menu;
+  font-size: medium;
+  color:white;
+  background-color:rgb(47, 136, 25);
+}
+
+.header {
+  margin: 90rpx 0 90rpx 50rpx;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  width: 650rpx;
+  height: 300rpx;
+  line-height: 450rpx;
+}
+
+.header image {
+  width: 200rpx;
+  height: 200rpx;
+}
+
+.content {
+  margin-left: 50rpx;
+  margin-bottom: 90rpx;
+}
+
+.content text {
+  display: block;
+  color: #9d9d9d;
+  margin-top: 40rpx;
+}
+
+.bottom {
+  height: 120rpx;
+  width: 2000rpx;
+  border-radius: 80rpx;
+  margin: 70rpx 50rpx;
+  font-size: 35rpx;
+  background-color: green;
+  color: #fff;
+}
+.backgroundImage{
+  position: relative;
+  width: 100%;
+  height: 500rpx;
+  filter: blur();
+  filter: blur();
+
+}
+.usericon{
+  position: relative;
+  top: -350rpx;
+  left: 40%;           
+  height: 140rpx;
+  width: 140rpx;
+  border-radius: 50%;
+  overflow:hidden;
+}
+.userid{
+  position: relative;
+  top: -320rpx;
+  display: flex;
+  left: 325rpx;
+  font-size: small;
+  color: #FFF;
+}
+
+
+
+
+
+
+
+.loginNaviBar{
+  color: #FFF;
+  font-size: medium;
+  position: relative;
+  background-color: darkgreen;
+  position: relative;
+  top: 750rpx;
+  text-align: center;
+  left: 50rpx;
+  width: 650rpx;
+  height: 80rpx;
+}
+
+.getnumberbutton{
+  background-color: green;
+  color: #fff;
+  position: relative;
+  top: 400rpx;
+  font-size: x-small;
+
+}
+
+.settingBar{
+  position: relative;
+  width: 100%;
+  height: 120rpx;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: left;
+  border: solid;
+  border-width: 3rpx;
+  border-bottom: 0rpx;
+  display: flex;
+  align-items: center;
+}
+.settingBarLast{
+  position: relative;
+  width: 100%;
+  height: 120rpx;
+  font-family: 'Times New Roman', Times, serif;
+  border: solid;
+  border-width: 3rpx;
+  display: flex;
+  align-items: center;
+}
+.barHolder{
+  position: relative;
+  top: -200rpx;
+}

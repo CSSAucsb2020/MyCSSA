@@ -1,0 +1,18 @@
+<!--pages/sponsorList/sponsorList.wxml-->
+<view class='list'>
+  <block wx:for='{{list}}' wx:key='list' wx:for-item="item">
+  <view class="list_item">
+      <navigator url="{{item.nav}}">
+      <view class='img'>
+        <image src="{{item.url}}"  mode="scaleToFill"/>
+      </view>
+      <view class='info'>
+        <view class='title'>{{item.name}}</view>
+        <view class='type'>{{item.type}}</view>
+        <view class ='address'>{{item.address}}</view>
+      </view>
+       </navigator>
+      <view class='clear'></view>
+  </view>
+  </block>
+</view>

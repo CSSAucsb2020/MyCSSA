@@ -2,58 +2,43 @@
   "pages": [
     "pages/myIndex/myIndex",
     "pages/user/user",
-    "pages/index/index",
-    "pages/loginpage/loginpage",
-    "pages/userConsole/userConsole",
-    "pages/storageConsole/storageConsole",
-    "pages/databaseGuide/databaseGuide",
-    "pages/addFunction/addFunction",
-    "pages/deployFunctions/deployFunctions",
-    "pages/chooseLib/chooseLib",
-    "pages/openapi/openapi",
-    "pages/openapi/serverapi/serverapi",
-    "pages/openapi/callback/callback",
-    "pages/openapi/cloudid/cloudid",
-    "pages/im/im",
-    "pages/im/room/room",
+    "pages/vrfPage/vrfPage",
+    "pages/ClassGroup/ClassGroup",
+    "pages/ClassQRCode/ClassQRCode",
+    "pages/CSSAintro/CSSAintro",
+    "pages/confessWall/confessWall",
     "pages/sponsorList/sponsorList",
-    "pages/sponsor1/sponsor1",
-    "pages/sponsor2/sponsor2",
-    "pages/sponsor3/sponsor3",
-    "pages/sponsor4/sponsor4",
-    "pages/sponsor5/sponsor5",
-    "pages/sponsor6/sponsor6",
-    "pages/sponsor7/sponsor7",
-    "pages/sponsor8/sponsor8",
-    "pages/sponsor9/sponsor9",
-    "pages/sponsor10/sponsor10",
-    "pages/sponsor11/sponsor11",
-    "pages/sponsor12/sponsor12"
+    "pages/Sponsors/sponsor1/sponsor1",
+    "pages/Sponsors/sponsor2/sponsor2",
+    "pages/Sponsors/sponsor3/sponsor3",
+    "pages/Sponsors/sponsor4/sponsor4",
+    "pages/Sponsors/sponsor5/sponsor5"
   ],
   "window": {
-    "backgroundColor": "#F6F6F6",
+    "backgroundColor": "#F4DD73",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#F6F6F6",
     "navigationBarTitleText": "云开发 QuickStart",
     "navigationBarTextStyle": "black"
   },
-
   "tabBar": {
     "color": "#000000",
     "selectedColor": "#000000",
-    "backgroundColor": "fff",
-    "list": [{
+    "backgroundColor": "#fff",
+    "list": [
+
+    {
       "pagePath": "pages/myIndex/myIndex",
-      "text": "myIndex"
+      "iconPath": "images/index_0.png",
+      "selectedIconPath": "images/index_1.png",
+      "text": "首页"
     },{
       "pagePath": "pages/user/user",
-      "text": "user"
-    }, {
-      "pagePath": "pages/index/index",
-      "text": "index"
+      "iconPath": "images/me_0.png",
+      "selectedIconPath": "images/me_1.png",
+      "text": "我的"
     }]
   },
-
   "sitemapLocation": "sitemap.json",
   "style": "v2"
 }

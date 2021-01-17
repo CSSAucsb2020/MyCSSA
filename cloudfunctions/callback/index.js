@@ -7,7 +7,6 @@ cloud.init({
 
 // 云函数入口函数
 exports.main = async (event, context) => {
-
   console.log(event)
 
   const { OPENID } = cloud.getWXContext()
@@ -16,7 +15,7 @@ exports.main = async (event, context) => {
     touser: OPENID,
     msgtype: 'text',
     text: {
-      content: '收到：' + event.Content,
+      content: `收到：${event.Content}`,
     }
   })
 

@@ -1,4 +1,7 @@
 /* pages/myIndex/myIndex.wxss */
+page{
+  background-color: #fff;
+}
 .container{
   position: relative;
 }

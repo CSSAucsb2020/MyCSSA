@@ -75,7 +75,6 @@ Page({
       sizeType: ['compressed'],
       sourceType: ['album', 'camera'],
       success: function (res) {
-
         wx.showLoading({
           title: '上传中',
         })
@@ -83,7 +82,7 @@ Page({
         const filePath = res.tempFilePaths[0]
         
         // 上传图片
-        const cloudPath = 'my-image' + filePath.match(/\.[^.]+?$/)[0]
+        const cloudPath = `my-image${filePath.match(/\.[^.]+?$/)[0]}`
         wx.cloud.uploadFile({
           cloudPath,
           filePath,
@@ -109,7 +108,6 @@ Page({
             wx.hideLoading()
           }
         })
-
       },
       fail: e => {
         console.error(e)

@@ -1,0 +1,10 @@
+/* pages/confessWall/confessWall.wxss */
+
+.alert{
+  position: relative;
+  height: 600rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}

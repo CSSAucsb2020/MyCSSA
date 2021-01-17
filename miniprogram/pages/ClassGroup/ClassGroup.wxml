@@ -1,0 +1,34 @@
+<!--pages/ClassGroup/ClassGroup.wxml-->
+<view class="blank"></view>
+<view class="container"> 
+    
+  <navigator class="icon-l" url="/pages/ClassQRCode/ClassQRCode?subject=PSTAT120A" hover-class= "changestyle">PSTAT120A</navigator>
+  <navigator class="icon-m">ECON10A</navigator>
+  <navigator class="icon-r">PSTAT10</navigator>
+</view>
+<view class="container"> 
+  <navigator class="icon-l">PSTAT120A</navigator>
+  <navigator class="icon-m">ECON10A</navigator>
+  <navigator class="icon-r">PSTAT10</navigator>
+</view>
+<view class="container"> 
+  <navigator class="icon-l">PSTAT120A</navigator>
+  <navigator class="icon-m">ECON10A</navigator>
+  <navigator class="icon-r">PSTAT10</navigator>
+</view>
+<view class="container"> 
+  <navigator class="icon-l">PSTAT120A</navigator>
+  <navigator class="icon-m">ECON10A</navigator>
+  <navigator class="icon-r">PSTAT10</navigator>
+</view>
+<view class="container"> 
+  <navigator class="icon-l">PSTAT120A</navigator>
+  <navigator class="icon-m">ECON10A</navigator>
+  <navigator class="icon-r">PSTAT10</navigator>
+</view><view class="container"> 
+  <navigator class="icon-l-b">PSTAT120A</navigator>
+  <navigator class="icon-m-b">ECON10A</navigator>
+  <navigator class="icon-r-b">PSTAT10</navigator>
+</view>
+
+<view class="blank"></view>

@@ -1,4 +1,4 @@
-// pages/chooseLib/chooseLib.js
+// pages/ClassGroup/ClassGroup.js
 Page({
 
   /**

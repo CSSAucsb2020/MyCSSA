@@ -1,0 +1,33 @@
+/* pages/ClassQRCode/ClassQRCode.wxss */
+@import "../vrfPage/weui.wxss";
+.blank{
+  position: relative;
+  height: 140rpx;
+}
+.blank2{
+  position: relative;
+  height: 30rpx;
+}
+.container{
+  position: relative;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.subject{
+  top: 100rpx;
+  width: 80%;
+  position: relative;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+
+  font-size: 85%;
+}
+.blurPic{
+  position: relative;
+  width: 500rpx;
+  height:500rpx;
+  
+  margin: 30rpx;
+}

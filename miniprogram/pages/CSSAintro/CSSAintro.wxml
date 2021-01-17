@@ -1,0 +1,23 @@
+<!--pages/CSSAintro/CSSAintro.wxml-->
+<view class = "container">
+  <image class="headerImg" src="https://s3.ax1x.com/2021/01/09/sMpHDe.png"></image>
+  <view class="blank"></view>
+  <text class="text">中国学生学者联合会CSSA (Chinese Students and Scholars Association)是中国驻洛杉矶总领事馆指导下的非盈利性组织。其主要宗旨是:对外代表联合会全体会员,维护其在学习、工作、生活中的正当权益;为会员提供生活、娱乐、工作、就业方面的必要服务与帮助,促进中美文化交流等。CSSA的服务对象为所有在校中国本科生,中国研究生以及中国学者群体。UCSB CSSA由150余名成员组成。每年, CSSA举办30余场大型活动,类型涉及娱乐、交友、校园招聘、求职规划、暑校、体育竞技、知识竞赛等的活动,包括新生见面会、中秋晚会、Supernova歌唱大赛、春节联欢晚会、一周情侣、企业线下宣讲会、5v5篮球赛等。与此同时, CSSA与中国驻洛杉矶大使馆、学校国际生办公室均保持密切联系,以确保在华人学生有困难时,第一时间向官方组织获取帮助。</text>
+  <view class="blank"></view>
+
+  <text class="text">Chinese Students and Scholars Association (CSSA) is a non-profit organization under the guidance of the Chinese Embassy in Los Angeles. Its main purpose is to represent all the members of the Association and protect their legitimate rights and interests in their study, work and life. It provides members with service and help in areas including life, entertainment, work and employment. It promotes cultural exchange between the Chinese and the American students CSSA serves all Chinese undergraduates, Chinese graduates and Chinese scholars. CSSA consists of more than 150 members. Every year, CSSA holds more than 30 large-scale events, involving activities such as entertainment, socialization, recruitment, career planning, sports competitions, knowledge competitions, etc. Our most representative events include freshmen orientations, Supernova singing contest, Spring Festival gala, One-Week Couples, Career Information Session, 5v5 basketball games, etc. CSSA is in close contact with the Chinese Embassy and UCSB Office of International Students & Scholars (OISS) to ensure that Chinese students can receive help from official organizations as soon as possible in times of difficulties.</text>
+
+  <view class="blank"></view>
+
+  <view class="container">
+    <text class="tag">WeChat Official Account(@ucsb-cssa)</text>
+    <text class="tag">Weibo (@UCSB-CSSA中国学生学者联合会)</text>
+    <text class="tag">BiliBili Video Platform (@UCSBCSSA)</text>
+    <text class="tag">Instagram (@ucsb_cssa)</text>
+    <text class="tag">Facebook (@Ucsb Cssa)</text>
+    <text class="tag">YouTube (@CSSA UCSB)</text>
+  </view>
+
+  <view class="blank"></view>
+</view>
+

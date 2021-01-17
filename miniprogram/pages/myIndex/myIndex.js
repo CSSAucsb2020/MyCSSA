@@ -1,10 +1,7 @@
 // pages/myIndex/myIndex.js
 const app = getApp()
 Page({
-
-  /**
-   * 页面的初始数据
-   */
+// 四个按钮的贴图+链接+导航方式
   data: {
     imageItems: [{
       id: 0,
@@ -17,124 +14,81 @@ Page({
       link: "https://s3.ax1x.com/2020/11/24/DNKqaQ.png"
     }],
     imgs1:[
-      { url: 'https://s3.ax1x.com/2020/11/24/DNGIYD.png', 
-        name: '优惠',
+      { url: 'https://s3.ax1x.com/2021/01/06/sVVlqJ.png', 
+        name: '商家优惠',
         id:"0",
         navigator: "sponsorNavigate"},
-      { url: 'https://s3.ax1x.com/2020/11/24/DNG5FO.jpg', 
-        name: '按钮',
+      { url: 'https://s3.ax1x.com/2021/01/06/sVmPKO.png', 
+        name: '表白墙',
         id:"1",
-        navigator: "sponsorNavigate"},
-      { url: 'https://s3.ax1x.com/2020/11/24/DNGhTK.jpg', 
-        name: '按钮',
+        navigator: "confessWallNavigate"},
+      { url: 'https://s3.ax1x.com/2021/01/06/sVmMM8.png', 
+        name: '课群',
         id:"2",
-        navigator: "sponsorNavigate"},
-      { url: 'https://s3.ax1x.com/2020/11/24/DNGfw6.jpg', 
-        name: '按钮',
+        navigator: "courseGroupNavigate"},
+      { url: 'https://s3.ax1x.com/2021/01/09/sM9uKU.png', 
+        name: 'CSSA',
         id:"3",
-        navigator: "sponsorNavigate"},
+        navigator: "introNavigate"},
     ],
     info:""
   },
   sponsorNavigate: function (e) {
     wx.navigateTo({
       url: '../sponsorList/sponsorList',
+
     })
   },
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-
+  confessWallNavigate: function (e) {
+    wx.navigateTo({
+      url: '../confessWall/confessWall',
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
+  courseGroupNavigate: function (e) {
+    wx.navigateTo({
+      url: '../ClassGroup/ClassGroup',
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
+  introNavigate: function (e) {
+    wx.navigateTo({
+      url: '../CSSAintro/CSSAintro',
+    })
   },
+// 自动登录+获取信息
 
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
-  },
-
-  onGetUserInfo: function(e) {
-    if (!this.data.logged && e.detail.userInfo) {
-      this.setData({
-        logged: true,
-        avatarUrl: e.detail.userInfo.avatarUrl,
-        userInfo: e.detail.userInfo
-      })
-    }
+  onLoad: function() {
+    // 调用云函数 获取openid
     wx.cloud.callFunction({
       name: 'login',
       data: {},
       success: res => {
-        console.log('[云函数] [login] user openid: ', res.result.openid)
         app.globalData.openid = res.result.openid
+        console.log('[云函数] [login] user openid: ', app.globalData.openid)
+        // 检查是否为会员
+        const db = wx.cloud.database()
+        db.collection('blMember').where({
+          _openid: app.globalData.openid
+        }).get({
+            success: res=>{
+              console.log(res)
+              if(res.data.length != 0){
+                app.globalData.blackID = true
+                console.log("[blMember]: true")
+              }else{
+                app.globalData.blackID = false
+                console.log("[blMember]: false")                
+              }
+            },
+            fail: err=>{
+              console.log("[blMember][查询]: 失败")
+            }
+
+        })        
       },
       fail: err => {
         console.error('[云函数] [login] 调用失败', err)
       }
     })
-  },
-  onCheckMember: function(){
-    const db = wx.cloud.database();
-    wx.cloud.callFunction({    //调用云函数
-      name:"checkMember",
-      complete:res=>{
-        db.collection("blMember").where({
-          openid: app.globalData.openid //进行筛选
-        }).get({
-          success:res=>{
-            console.log(res.data.length)
-            if(res.data.length==0){
-              console.log("查无此人")
-            }else{
-              console.log("尊贵的黑卡会员")
-            }
-          }
-        })
-      }
-    })
+
   }
 })

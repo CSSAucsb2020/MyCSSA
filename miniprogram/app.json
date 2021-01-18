@@ -6,6 +6,7 @@
     "pages/ClassGroup/ClassGroup",
     "pages/ClassQRCode/ClassQRCode",
     "pages/CSSAintro/CSSAintro",
+    "pages/SpringPosterEntrance/SpringPosterEntrance",
     "pages/confessWall/confessWall",
     "pages/sponsorList/sponsorList",
     "pages/Sponsors/sponsor1/sponsor1",
@@ -26,7 +27,10 @@
     "selectedColor": "#000000",
     "backgroundColor": "#fff",
     "list": [
-
+      {
+        "pagePath": "pages/SpringPosterEntrance/SpringPosterEntrance",
+        "text": "spring"
+      },
     {
       "pagePath": "pages/myIndex/myIndex",
       "iconPath": "images/index_0.png",

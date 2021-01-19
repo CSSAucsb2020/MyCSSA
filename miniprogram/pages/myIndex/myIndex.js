@@ -5,10 +5,10 @@ Page({
   data: {
     imageItems: [{
       id: 0,
-      link: "https://s3.ax1x.com/2020/11/24/DNZQaR.jpg"
+      link: "/images/ucsb.png"
     }, {
       id: 1,
-      link: "https://s3.ax1x.com/2020/11/24/DNK7qS.jpg"
+      link: "/images/LEG.jpg"
     }, {
       id: 2,
       link: "https://s3.ax1x.com/2020/11/24/DNKqaQ.png"

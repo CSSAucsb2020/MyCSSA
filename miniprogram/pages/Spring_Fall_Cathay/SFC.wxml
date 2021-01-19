@@ -1,2 +1,3 @@
 <!--miniprogram/pages/Spring_Fall_Cathay/SFC.wxml-->
-<text>miniprogram/pages/Spring_Fall_Cathay/SFC.wxml</text>
+<text>报君黄金台上意,提携玉龙为君死</text>
+<button bindtap="EnterWinter">进入冬天</button> <!--进入冬天-->

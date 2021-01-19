@@ -1,2 +1,3 @@
 <!--miniprogram/pages/Spring_Summer_Cathay/SSC.wxml-->
-<text>miniprogram/pages/Spring_Summer_Cathay/SSC.wxml</text>
+<text>当今亚美理驾洲大合众国大伯理玺天德川普万岁万岁万万岁</text>
+<button bindtap="EnterFall">进入秋天</button> <!--进入秋天-->

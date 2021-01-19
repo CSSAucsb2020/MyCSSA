@@ -1,0 +1,4 @@
+<!--miniprogram/pages/Spring_Poster/Poster.wxml-->
+<text>天高地迥，觉宇宙之无穷；兴尽悲来，识盈虚之有数。</text>
+<button bindtap="JPG">导出画报</button> <!--功能有待完善-->
+<button bindtap="GoBack">返回</button> <!--曲终人散-->

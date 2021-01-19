@@ -1,2 +1,3 @@
 <!--miniprogram/pages/Spring_Summer_State/SSS.wxml-->
-<text>miniprogram/pages/Spring_Summer_State/SSS.wxml</text>
+<text>当今亚美理驾洲大合众国大伯理玺天德拜登万岁万岁万万岁</text>
+<button bindtap="EnterFall">进入秋天</button> <!--进入秋天-->

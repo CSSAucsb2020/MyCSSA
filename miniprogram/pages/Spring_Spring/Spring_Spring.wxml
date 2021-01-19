@@ -1,2 +1,3 @@
 <!--miniprogram/pages/Spring_Spring/Spring_Spring.wxml-->
 <text>竹外桃花三两枝，春江水暖鸭先知</text>
+<button bindtap="EnterSummer">进入夏天</button> <!--进入夏天-->

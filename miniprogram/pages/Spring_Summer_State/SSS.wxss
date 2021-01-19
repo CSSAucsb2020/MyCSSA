@@ -1,1 +1,5 @@
 /* miniprogram/pages/Spring_Summer_State/SSS.wxss */
+page{
+  background-image: url("https://s3.ax1x.com/2021/01/19/sgMRYD.jpg");
+  background-repeat:no-repeat; background-size:220% 100%;-moz-background-size:50% 100%;
+}

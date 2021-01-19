@@ -7,7 +7,12 @@ Page({
   data: {
 
   },
+  EnterWinter: function(){
+    wx.navigateTo({
+      url: '../Spring_Winter/SW', //冬
+    })
 
+  }, 
   /**
    * 生命周期函数--监听页面加载
    */

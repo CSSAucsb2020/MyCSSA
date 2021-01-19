@@ -1,4 +1,4 @@
-// miniprogram/pages/Spring_Spring/Spring_Spring.js
+// miniprogram/pages/Spring_Poster/Poster.js
 Page({
 
   /**
@@ -8,18 +8,13 @@ Page({
 
   },
 
-  EnterSummer: function(){
-    if(1)
-    wx.navigateTo({
-      url: '../Spring_Summer_Cathay/SSC', //中国的夏
+  GoBack: function(){
+    wx.switchTab({
+      url: '../myIndex/myIndex', //结束
     })
-    else
-    wx.navigateTo({
-      url: '../Spring_Summer_State/SSS',  //米国的夏
-    })
+
   }, 
   /**
-   * 
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {

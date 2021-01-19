@@ -7,7 +7,16 @@ Page({
   data: {
 
   },
-
+  EnterFall: function(){
+    if(1)
+    wx.navigateTo({
+      url: '../Spring_Fall_Cathay/SFC', //中国的秋
+    })
+    else
+    wx.navigateTo({
+      url: '../Spring_Fall_State/SFS',  //米国的秋
+    })
+  }, 
   /**
    * 生命周期函数--监听页面加载
    */

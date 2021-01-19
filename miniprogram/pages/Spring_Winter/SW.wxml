@@ -1,2 +1,3 @@
 <!--miniprogram/pages/Spring_Winter/SW.wxml-->
-<text>miniprogram/pages/Spring_Winter/SW.wxml</text>
+<text>俱往矣，数风流人物，还看今朝</text>
+<button bindtap="EnterPoster">生成画报</button> <!--画报-->

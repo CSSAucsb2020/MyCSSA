@@ -1,2 +1,3 @@
 <!--miniprogram/pages/Spring_Fall_State/SFS.wxml-->
-<text>miniprogram/pages/Spring_Fall_State/SFS.wxml</text>
+<text>僵卧孤村不自哀，尚思为国戍轮台</text>
+<button bindtap="EnterWinter">进入冬天</button> <!--进入冬天-->

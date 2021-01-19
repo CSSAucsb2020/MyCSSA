@@ -7,7 +7,12 @@ Page({
   data: {
 
   },
+  EnterPoster: function(){
+    wx.navigateTo({
+      url: '../Spring_Poster/Poster', //结束
+    })
 
+  }, 
   /**
    * 生命周期函数--监听页面加载
    */

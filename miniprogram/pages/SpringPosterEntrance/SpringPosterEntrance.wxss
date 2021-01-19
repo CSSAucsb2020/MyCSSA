@@ -1,4 +1,5 @@
 /* pages/SpringPosterEntrance/SpringPosterEntrance.wxss */
 page{
-  background-image: url("https://s3.ax1x.com/2021/01/18/s60AS0.jpg");
+  background-image: url("https://s3.ax1x.com/2021/01/19/sgMRYD.jpg");
+  background-repeat:no-repeat; background-size:220% 100%;-moz-background-size:50% 100%;
 }

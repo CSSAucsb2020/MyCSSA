@@ -1,0 +1,4 @@
+/* miniprogram/pages/Spring_Spring/Spring_Spring.wxss */
+page{
+  background-image: url("https://s3.ax1x.com/2021/01/19/sgMRYD.jpg");
+}

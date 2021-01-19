@@ -75,7 +75,11 @@ Page({
   }, 
   listenerStartScroll: function(){
     this.setData({
-      hasStart: true
+      //hasStart: true
+    })
+    wx.navigateTo({
+      url: '../Spring_Spring/Spring_Spring',
+
     })
     // var animation = wx.createAnimation({
     //   delay: 0,

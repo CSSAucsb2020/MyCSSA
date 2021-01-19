@@ -3,12 +3,12 @@ const app = getApp()
 Page({
 // 四个按钮的贴图+链接+导航方式
   data: {
-    imageItems: [{
+   imageItems: [{
       id: 0,
-      link: "/images/ucsb.png"
+      link: "https://s3.ax1x.com/2021/01/19/sg5k1f.png"
     }, {
       id: 1,
-      link: "/images/LEG.jpg"
+      link: "https://s3.ax1x.com/2021/01/19/sg4jXD.jpg"
     }, {
       id: 2,
       link: "https://s3.ax1x.com/2020/11/24/DNKqaQ.png"

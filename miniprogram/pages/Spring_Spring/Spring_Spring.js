@@ -5,11 +5,73 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    
+    selection:[
+      { 
+        url : 'https://s3.ax1x.com/2021/01/06/sVVlqJ.png',
+        name: '拿A',
+        id:"0",
+        navigator: "choose1"},
+      { url: 'https://s3.ax1x.com/2021/01/06/sVmPKO.png', 
+        name: '谈恋爱',
+        id:"1",
+        navigator: "choose2"},
+      { url: 'https://s3.ax1x.com/2021/01/06/sVmMM8.png', 
+        name: '寄口罩',
+        id:"2",
+        navigator: "choose3"},
+      { url: 'https://s3.ax1x.com/2021/01/19/sgsy2d.jpg', 
+        name: '支持川普',
+        id:"3",
+        navigator: "choose4"},
+    ]
   },
 
+  choose1: function(e){
+      if(this.data.selection[0].url=='https://s3.ax1x.com/2021/01/06/sVVlqJ.png')
+      this.setData(
+        {'selection[0].url' : 'https://s3.ax1x.com/2021/01/19/sgdfVe.jpg'}
+      )
+      else
+      this.setData(
+        {'selection[0].url': 'https://s3.ax1x.com/2021/01/06/sVVlqJ.png'}
+      )
+  },
+
+  choose2: function(e){
+    if(this.data.selection[1].url=='https://s3.ax1x.com/2021/01/06/sVmPKO.png')
+    this.setData(
+      {'selection[1].url' : 'https://s3.ax1x.com/2021/01/19/sgdfVe.jpg'}
+    )
+    else
+    this.setData(
+      {'selection[1].url': 'https://s3.ax1x.com/2021/01/06/sVmPKO.png'}
+    )
+},
+
+ choose3: function(e){
+  if(this.data.selection[2].url=='https://s3.ax1x.com/2021/01/06/sVmMM8.png')
+  this.setData(
+    {'selection[2].url' : 'https://s3.ax1x.com/2021/01/19/sgdfVe.jpg'}
+  )
+  else
+  this.setData(
+    {'selection[2].url': 'https://s3.ax1x.com/2021/01/06/sVmMM8.png'}
+  )
+},
+
+ choose4: function(e){
+  if(this.data.selection[3].url=='https://s3.ax1x.com/2021/01/19/sgsy2d.jpg')
+  this.setData(
+    {'selection[3].url' : 'https://s3.ax1x.com/2021/01/19/sgdfVe.jpg'}
+  )
+  else
+  this.setData(
+    {'selection[3].url': 'https://s3.ax1x.com/2021/01/19/sgsy2d.jpg'}
+  )
+},
   EnterSummer: function(){
-    if(1)
+    if(this.data.selection[3].url=='https://s3.ax1x.com/2021/01/19/sgdfVe.jpg')
     wx.navigateTo({
       url: '../Spring_Summer_Cathay/SSC', //中国的夏
     })

@@ -1,3 +1,11 @@
 <!--miniprogram/pages/Spring_Fall_State/SFS.wxml-->
 <text>僵卧孤村不自哀，尚思为国戍轮台</text>
+<view class="button-image">
+    <view class="txt" wx:for="{{selection}}" wx:key="index">
+      <image class="im" src="{{item.url}}" bindtap="{{item.navigator}}" data-id="{{index}}"></image>
+      <view class="t">
+        {{item.name}}
+      </view>
+    </view>
+</view>
 <button bindtap="EnterWinter">进入冬天</button> <!--进入冬天-->

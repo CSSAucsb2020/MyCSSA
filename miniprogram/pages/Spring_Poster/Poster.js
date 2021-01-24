@@ -5,7 +5,10 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    user_data1:0b0,  //选项追踪器
+    user_data2:0b0,
+    user_data3:0b0,
+    user_data4:0b0,
   },
 
   GoBack: function(){
@@ -18,7 +21,22 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    var ud1 = options.user_data1 
+    var ud2 = options.user_data2 
+    var ud3 = options.user_data3
+    var ud4 = options.user_data4
+    this.setData({
+      user_data1: ud1
+    })
+    this.setData({
+      user_data2: ud2
+    })
+    this.setData({
+      user_data3: ud3
+    })
+    this.setData({
+      user_data4: ud4
+    })
   },
 
   /**

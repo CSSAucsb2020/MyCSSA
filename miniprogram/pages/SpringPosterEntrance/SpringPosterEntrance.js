@@ -64,7 +64,7 @@ Page({
       })
     }  else{
       wx.playBackgroundAudio({
-        dataUrl: 'http://m701.music.126.net/20210118170317/37deef8bed773ca452c4bc19d8d8e600/jdyyaac/515f/530f/5408/f531136b80debc0548c4cb2df9732e2c.m4a',
+        dataUrl: 'http://m10.music.126.net/20210119155909/54b75ab28e276153aa8331dabfd95404/ymusic/b966/4d70/daae/52347e952292a9d0cd1329702ce3ee69.mp3',
         position: this.data.playingPosition
       })
       this.setData({

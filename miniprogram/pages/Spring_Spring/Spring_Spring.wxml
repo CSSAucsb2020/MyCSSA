@@ -1,5 +1,5 @@
 <!--miniprogram/pages/Spring_Spring/Spring_Spring.wxml-->
-<text>竹外桃花三两枝，春江水暖鸭先知</text>
+<!--<text>竹外桃花三两枝，春江水暖鸭先知</text>-->
 <view class="button-image">
     <view class="txt" wx:for="{{selection}}" wx:key="index">
       <image class="im" src="{{item.url}}" bindtap="{{item.navigator}}" data-id="{{index}}"></image>

@@ -19,9 +19,9 @@ page{
   border-radius:50%;
 }
 .txt{
-  width:180rpx;
+  width:240rpx;
   text-align: center;
-  height: 375rpx;
+  height: 325rpx;
 }
 .t{
   margin-left: 15rpx;

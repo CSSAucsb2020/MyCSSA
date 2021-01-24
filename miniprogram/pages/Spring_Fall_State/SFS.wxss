@@ -3,3 +3,25 @@ page{
   background-image: url("https://s3.ax1x.com/2021/01/19/sgMRYD.jpg");
   background-repeat:no-repeat; background-size:220% 100%;-moz-background-size:50% 100%;
 }
+.button-image{
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.im{
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  margin-top: 50rpx;
+  margin-bottom: 20rpx;
+  height: 145rpx;
+  width: 145rpx;
+  border-radius:50%;
+}
+.txt{
+  width:240rpx;
+  text-align: center;
+  height: 325rpx;
+}
+.t{
+  margin-left: 15rpx;
+}

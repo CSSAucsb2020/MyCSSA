@@ -1,6 +1,0 @@
-<!--pages/SpringPosterEntrance/SpringPosterEntrance.wxml-->
-<view hidden="{{hasStart}}">
-  <text>CSSA春节年历制作</text>
-  <button bindtap="listenerStartScroll">开始</button> <!--进入春天-->
-  <button bindtap="listenerButtonPause">暂停音乐</button>
-</view>

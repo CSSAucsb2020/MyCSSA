@@ -1,0 +1,41 @@
+/* pages/SpringPosterEntrance/SpringPosterEntrance.wxss */
+page{
+  background-image: url("https://s3.ax1x.com/2021/02/01/yZ5oeP.png");
+  background-repeat:no-repeat; background-size:100% 100%;-moz-background-size:50% 100%;
+}
+.container{
+  position: absolute;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.enterInput{
+  position: absolute;
+  bottom: 100rpx;
+  width: 200rpx;
+  right: 70rpx;
+  font-weight: bold;
+}
+.enterText{
+  position: absolute;
+  bottom: 100rpx;
+  right: 150rpx;  
+  font-weight: bold;
+}
+.enter{
+  position: absolute;
+  bottom: 10rpx;
+  right: 10rpx;
+}
+
+.headPoem{
+  position: absolute;
+  display: flex;
+  top: 35rpx;
+  align-self: center;
+  width: 350rpx;
+  height: 1050rpx;
+}
+.blank{
+  height: 20rpx;
+}

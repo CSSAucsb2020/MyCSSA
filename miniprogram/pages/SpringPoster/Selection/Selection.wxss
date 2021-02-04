@@ -1,0 +1,25 @@
+/* pages/SpringPoster/Selection/Selection.wxss */
+/* page{
+  background-image: url("https://ae01.alicdn.com/kf/U593185eeddfb464288bc57405581904aJ.jpg");
+  background-repeat:no-repeat; background-size:100% 100%;-moz-background-size:50% 100%;
+} */
+
+.background{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+.eventText{
+  position: relative;
+  display: flex;
+  left: 300rpx;
+  margin-top: 180rpx;
+}
+.eventIcon{
+  position: relative;
+  display: flex;
+  left: 200rpx;
+  align-self: center;
+  width: 300rpx;
+  height: 300rpx;
+}

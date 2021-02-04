@@ -1,0 +1,19 @@
+<!--pages/SpringPoster/Selection/Selection.wxml-->
+<!-- 选择前 -->
+<view class="container" wx:if="{{!selected}}">
+  <text class="selectionText">我现在是↓↓↓</text>
+  <button class="choiceText1" bindtap="onUS">留守</button>
+  <button class="choiceText2" bindtap="onChina">回国</button>
+</view>
+
+<!-- 选择回国 -->
+<view class="container" wx:if="{{selected1}}">
+  <image class="textImg1" src="https://s3.ax1x.com/2021/02/01/yeAPrn.png" ></image>
+  <text class="enter" bindtap="onGoing">点击选择你的2021回国新年故事>>></text>
+</view>
+
+<!-- 选择留守 -->
+<view class="container" wx:if="{{selected2}}">
+  <image class="textImg2" src="https://s3.ax1x.com/2021/02/01/yeE0l4.png "></image>
+  <text class="enter" bindtap="onGoing">点击选择你的2021留守新年故事>>></text>
+</view>

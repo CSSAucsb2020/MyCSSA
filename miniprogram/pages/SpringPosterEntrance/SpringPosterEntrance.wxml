@@ -1,0 +1,12 @@
+<!--pages/SpringPosterEntrance/SpringPosterEntrance.wxml-->
+<view class="container">
+  <image class="headPoem" src="https://s3.ax1x.com/2021/02/01/yZx810.png"></image>
+  <text class="enterText">请输入你的名字_________</text>
+  <input class = "enterInput" type="text" bindinput="nicknameInput"/>
+  <button class="enter" bindtap="listenerStartScroll">开始>>></button> <!--进入春天-->
+</view>
+
+  <!-- <text>CSSA春节年历制作</text> -->
+
+  <!-- <button bindtap="listenerButtonPause">暂停音乐</button> -->
+

@@ -1,0 +1,58 @@
+/* pages/SpringPoster/Selection/Selection.wxss */
+page{
+  background-image: url("https://s3.ax1x.com/2021/02/01/yeipvR.png");
+  background-repeat:no-repeat; background-size:100% 100%;-moz-background-size:50% 100%;
+}
+.container{
+  position: absolute;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.selectionText{
+  position: absolute;
+  justify-self: left;
+  font-weight: bold;
+  top: 50rpx;
+  left: 50rpx;
+}
+.choiceText1{
+  position: absolute;
+  justify-self: left;
+  font-weight: bold;
+  top: 150rpx;
+  left: 300rpx;
+  width: 100rpx;
+}
+.choiceText2{
+  position: absolute;
+  justify-self: left;
+  font-weight: bold;
+  top: 150rpx;
+  right: 300rpx;
+  width: 100rpx;
+}
+
+.textImg1{
+  position: absolute;
+  display: flex;
+  top: 80rpx;
+  align-self: center;
+  width: 700rpx;
+  height: 850rpx;
+}
+.textImg2{
+  position: absolute;
+  display: flex;
+  top: 80rpx;
+  align-self: center;
+  width: 1050rpx;
+  height: 1000rpx;
+}
+
+.enter{
+  position: absolute;
+  bottom: 400rpx;
+  right: 30rpx;
+  font-weight: bold;
+}

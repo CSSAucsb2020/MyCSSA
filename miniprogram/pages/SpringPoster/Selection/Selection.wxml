@@ -1,20 +1,35 @@
 <image class="background" src="https://s3.ax1x.com/2021/02/01/yel881.png"></image>
 
+<view class="button-image">
+</view>
+
 <view wx:if="{{inChina}}">
   <!-- selection0 -->
-  <view>
-    <view bindtap="onChoose1" class="eventText" hidden="{{event1._selected}}">{{event1._icon_text}}</view>
-    <image wx:if='{{event1._icon_url}}' bindtap="onChoose1" class="eventIcon" hidden="!{{event1._selected}}" src="{{event1._icon_url}}"></image>
-  </view>
-  <view>
-    <text class="eventText" wx:if="!{{eventList[1]._selected}}">{{eventList[1]._icon_text}}</text>
-    <image class="eventIcon" wx:if="{{eventList[1]._selected}}" src="{{eventList[1]._icon_url}}"></image>
-  </view>
-
-  <!-- selection1 -->
-  <view>
-
-  </view>
+  
+  <view class="button-image">
+    <view class="txt" wx:for="{{selectionCathay}}" wx:key="index">
+    <view wx:if="{{index%2==0}}">
+      <image class="im" src="{{item._icon_url}}" bindtap="{{item.navigator}}" data-id="{{index}}"></image>
+    </view>
+    <view wx:if="{{index%2==1}}">
+      <image class="im1" src="{{item._icon_url}}" bindtap="{{item.navigator}}" data-id="{{index}}"></image>
+    </view>
+    </view>
+    </view>
+</view>
+<!-- <button bindtap="EnterSummer">进入夏天</button> <!--进入夏天--> -->
+<view wx:if="{{inChina<1}}">
+  <!-- selection0 -->
+  <view class="button-image">
+    <view class="txt" wx:for="{{selectionUS}}" wx:key="index">
+      <view wx:if="{{index%2==0}}">
+      <image class="im" src="{{item._icon_url}}" bindtap="{{item.navigator}}" data-id="{{index}}"></image>
+    </view>
+    <view wx:if="{{index%2==1}}">
+      <image class="im1" src="{{item._icon_url}}" bindtap="{{item.navigator}}" data-id="{{index}}"></image>
+    </view>
+    </view>
+    </view>
 </view>
 
 

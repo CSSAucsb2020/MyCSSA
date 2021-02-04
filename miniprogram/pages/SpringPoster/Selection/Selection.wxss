@@ -3,23 +3,40 @@
   background-image: url("https://ae01.alicdn.com/kf/U593185eeddfb464288bc57405581904aJ.jpg");
   background-repeat:no-repeat; background-size:100% 100%;-moz-background-size:50% 100%;
 } */
-
-.background{
-  position: fixed;
+/*page{
+  background-image: url("https://s3.ax1x.com/2021/02/01/yel881.png");
+  background-repeat:no-repeat; background-size:100% 100%;-moz-background-size:100% 100%;
+}*/
+.background {
   width: 100%;
   height: 100%;
-}
-.eventText{
-  position: relative;
-  display: flex;
-  left: 300rpx;
-  margin-top: 180rpx;
-}
-.eventIcon{
-  position: relative;
-  display: flex;
-  left: 200rpx;
+  position:fixed; 
+  background-size:100% 100%;
+  z-index: -1;
+
+  }
+.button-image{   
+  justify-content: center;
   align-self: center;
-  width: 300rpx;
-  height: 300rpx;
+  margin-bottom: 120rpx;
+}
+.im{
+  margin-left: 360rpx;
+  align-self: center;
+  width: 250rpx;
+  height: 250rpx;
+}
+
+.im1{
+  margin-left: 120rpx;
+  align-self: center;
+  width: 250rpx;
+  height: 250rpx;
+}
+
+.text{
+  margin-left: 240rpx;
+  align-self: center;
+  width: 450rpx;
+  height: 250rpx;
 }

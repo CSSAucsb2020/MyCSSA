@@ -1,0 +1,132 @@
+<!--pages/ClassGroup/ClassGroup.wxml-->
+<view class="blank"></view>
+<view class="container">
+
+  <navigator class="icon-l" url="/pages/ClassQRCode/ClassQRCode?subject=ANTH5" hover-class="changestyle">ANTH5
+  </navigator>
+  <navigator class="icon-m" url="/pages/ClassQRCode/ClassQRCode?subject=ANTHI6B" hover-class="changestyle">ANTHI6B
+  </navigator>
+  <navigator class="icon-r" url="/pages/ClassQRCode/ClassQRCode?subject=ASAM1" hover-class="changestyle">ASAM1
+  </navigator>
+</view>
+<view class="container">
+  <navigator class="icon-l" url="/pages/ClassQRCode/ClassQRCode?subject=ASAM5" hover-class="changestyle">ASAM5
+  </navigator>
+  <navigator class="icon-m" url="/pages/ClassQRCode/ClassQRCode?subject=CHEM1A" hover-class="changestyle">CHEM1A
+  </navigator>
+  <navigator class="icon-r" url="/pages/ClassQRCode/ClassQRCode?subject=CHEM1B" hover-class="changestyle">CHEM1B
+  </navigator>
+</view>
+<view class="container">
+  <navigator class="icon-l" url="/pages/ClassQRCode/ClassQRCode?subject=CLASS40" hover-class="changestyle">CLASS40
+  </navigator>
+  <navigator class="icon-m" url="/pages/ClassQRCode/ClassQRCode?subject=COMM1" hover-class="changestyle">COMM1
+  </navigator>
+  <navigator class="icon-r" url="/pages/ClassQRCode/ClassQRCode?subject=CS16" hover-class="changestyle">CS16</navigator>
+</view>
+<view class="container">
+  <navigator class="icon-l" url="/pages/ClassQRCode/ClassQRCode?subject=CS8" hover-class="changestyle">CS8</navigator>
+  <navigator class="icon-m" url="/pages/ClassQRCode/ClassQRCode?subject=CS9" hover-class="changestyle">CS9</navigator>
+  <navigator class="icon-r" url="/pages/ClassQRCode/ClassQRCode?subject=DANCE45" hover-class="changestyle">DANCE45
+  </navigator>
+</view>
+<view class="container">
+  <navigator class="icon-l" url="/pages/ClassQRCode/ClassQRCode?subject=EACS4A" hover-class="changestyle">EACS4A
+  </navigator>
+  <navigator class="icon-m" url="/pages/ClassQRCode/ClassQRCode?subject=EARTH10" hover-class="changestyle">EARTH10
+  </navigator>
+  <navigator class="icon-r" url="/pages/ClassQRCode/ClassQRCode?subject=EARTH4" hover-class="changestyle">EARTH4
+  </navigator>
+</view>
+<view class="container">
+  <navigator class="icon-l" url="/pages/ClassQRCode/ClassQRCode?subject=EARTH7" hover-class="changestyle">EARTH7
+  </navigator>
+  <navigator class="icon-m" url="/pages/ClassQRCode/ClassQRCode?subject=ECON1" hover-class="changestyle">ECON1
+  </navigator>
+  <navigator class="icon-r" url="/pages/ClassQRCode/ClassQRCode?subject=ECON10A" hover-class="changestyle">ECON10A
+  </navigator>
+</view>
+<view class="container">
+  <navigator class="icon-l" url="/pages/ClassQRCode/ClassQRCode?subject=ECON2" hover-class="changestyle">ECON2
+  </navigator>
+  <navigator class="icon-m" url="/pages/ClassQRCode/ClassQRCode?subject=ECON3A" hover-class="changestyle">ECON3A
+  </navigator>
+  <navigator class="icon-r" url="/pages/ClassQRCode/ClassQRCode?subject=ECON3B" hover-class="changestyle">ECON3B
+  </navigator>
+</view>
+<view class="container">
+  <navigator class="icon-l" url="/pages/ClassQRCode/ClassQRCode?subject=ENGL23" hover-class="changestyle">ENGL23
+  </navigator>
+  <navigator class="icon-m" url="/pages/ClassQRCode/ClassQRCode?subject=ENVS2" hover-class="changestyle">ENVS2
+  </navigator>
+  <navigator class="icon-r" url="/pages/ClassQRCode/ClassQRCode?subject=FEMST20" hover-class="changestyle">FEMST20
+  </navigator>
+</view>
+<view class="container">
+  <navigator class="icon-l" url="/pages/ClassQRCode/ClassQRCode?subject=GEO3" hover-class="changestyle">GEO3</navigator>
+  <navigator class="icon-m" url="/pages/ClassQRCode/ClassQRCode?subject=GEO5" hover-class="changestyle">GEO5</navigator>
+  <navigator class="icon-r" url="/pages/ClassQRCode/ClassQRCode?subject=HIST2C" hover-class="changestyle">HIST2C
+  </navigator>
+</view>
+<view class="container">
+  <navigator class="icon-l" url="/pages/ClassQRCode/ClassQRCode?subject=HIST4B" hover-class="changestyle">HIST4B
+  </navigator>
+  <navigator class="icon-m" url="/pages/ClassQRCode/ClassQRCode?subject=HIST80" hover-class="changestyle">HIST80
+  </navigator>
+  <navigator class="icon-r" url="/pages/ClassQRCode/ClassQRCode?subject=MATH3B" hover-class="changestyle">MATH3B
+  </navigator>
+</view>
+<view class="container">
+  <navigator class="icon-l" url="/pages/ClassQRCode/ClassQRCode?subject=MATH4A" hover-class="changestyle">MATH4A
+  </navigator>
+  <navigator class="icon-m" url="/pages/ClassQRCode/ClassQRCode?subject=MATH4B" hover-class="changestyle">MATH4B
+  </navigator>
+  <navigator class="icon-r" url="/pages/ClassQRCode/ClassQRCode?subject=MATH6A" hover-class="changestyle">MATH6A
+  </navigator>
+</view>
+<view class="container">
+  <navigator class="icon-l" url="/pages/ClassQRCode/ClassQRCode?subject=MATH6B" hover-class="changestyle">MATH6B
+  </navigator>
+  <navigator class="icon-m" url="/pages/ClassQRCode/ClassQRCode?subject=MUS11" hover-class="changestyle">MUS11
+  </navigator>
+  <navigator class="icon-r" url="/pages/ClassQRCode/ClassQRCode?subject=MUS15" hover-class="changestyle">MUS15
+  </navigator>
+</view>
+<view class="container">
+  <navigator class="icon-l" url="/pages/ClassQRCode/ClassQRCode?subject=MUS17" hover-class="changestyle">MUS17
+  </navigator>
+  <navigator class="icon-m" url="/pages/ClassQRCode/ClassQRCode?subject=PHIL1" hover-class="changestyle">PHIL1
+  </navigator>
+  <navigator class="icon-r" url="/pages/ClassQRCode/ClassQRCode?subject=PHIL3" hover-class="changestyle">PHIL3</navigator>
+</view>
+<view class="container">
+  <navigator class="icon-l" url="/pages/ClassQRCode/ClassQRCode?subject=PHYS1" hover-class="changestyle">PHYS1</navigator>
+  <navigator class="icon-m" url="/pages/ClassQRCode/ClassQRCode?subject=PHYS21" hover-class="changestyle">PHYS21</navigator>
+  <navigator class="icon-r" url="/pages/ClassQRCode/ClassQRCode?subject=PHYS24" hover-class="changestyle">PHYS24
+  </navigator>
+</view>
+<view class="container">
+  <navigator class="icon-l" url="/pages/ClassQRCode/ClassQRCode?subject=PHYS4" hover-class="changestyle">PHYS4
+  </navigator>
+  <navigator class="icon-m" url="/pages/ClassQRCode/ClassQRCode?subject=PSTAT10" hover-class="changestyle">PSTAT10
+  </navigator>
+  <navigator class="icon-r" url="/pages/ClassQRCode/ClassQRCode?subject=PSTAT109" hover-class="changestyle">PSTAT109
+  </navigator>
+</view>
+<view class="container">
+  <navigator class="icon-l" url="/pages/ClassQRCode/ClassQRCode?subject=PSTAT120A" hover-class="changestyle">PSTAT120A
+  </navigator>
+  <navigator class="icon-m" url="/pages/ClassQRCode/ClassQRCode?subject=PSTAT120B" hover-class="changestyle">PSTAT120B
+  </navigator>
+  <navigator class="icon-r" url="/pages/ClassQRCode/ClassQRCode?subject=PSTAT5A" hover-class="changestyle">PSTAT5A
+  </navigator>
+</view>
+<view class="container">
+  <navigator class="icon-l" url="/pages/ClassQRCode/ClassQRCode?subject=PSY1" hover-class="changestyle">PSY1
+  </navigator>
+  <navigator class="icon-m" url="/pages/ClassQRCode/ClassQRCode?subject=SOC1" hover-class="changestyle">SOC1
+  </navigator>
+  <navigator class="icon-r" url="" hover-class="changestyle">
+  </navigator>
+</view>
+<view class="blank"></view>

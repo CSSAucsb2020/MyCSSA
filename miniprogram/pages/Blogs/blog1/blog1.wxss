@@ -1,0 +1,62 @@
+/* pages/Blogs/blog1/blog1.wxss */
+
+page{
+  background-color: white;
+}
+.container{
+  position: relative;
+}
+.flowContainer{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+.headerImg{
+  position: relative;
+  height: 300rpx;
+}
+.blank{
+  height: 80rpx;
+}
+
+.text{
+  text-align: justify;
+  left: 10rpx;
+  width: 85%;
+}
+
+.image_2142_1170{
+  position: relative;
+  height: 1245rpx;
+  width: 680rpx
+}
+
+.image_1893_1170{
+  position: relative;
+  height: 1110.2rpx;
+  width: 680rpx
+}
+
+.image_1200_1170{
+  position: relative;
+  height: 701rpx;
+  width: 680rpx
+}
+
+
+.textEng{
+  left: 10rpx;
+  width: 85%;
+}
+
+.tag{
+  font-size: 85%;
+  color: darkgrey;
+  
+  left: 10rpx;
+  margin: 10rpx;
+  margin-bottom: 0%;
+  margin-top: 0%;
+
+
+}

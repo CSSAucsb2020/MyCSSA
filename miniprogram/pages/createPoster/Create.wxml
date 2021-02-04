@@ -1,0 +1,12 @@
+<!--Create.wxml-->
+<view class="container">
+  <image src="{{shareImage}}" class="share-image"></image>
+  <canvasdrawer painting="{{painting}}" class="canvasdrawer" bind:getImage="eventGetImage"/>
+  <button class="headbutton" wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo"
+   bindgetuserinfo="getUserInfo">点击登录</button>
+<block wx:else>
+  <button bind:tap="eventSave">保存到本地</button>
+</block>
+</view>
+
+<!-- 需要使用 button 来授权登录 -->

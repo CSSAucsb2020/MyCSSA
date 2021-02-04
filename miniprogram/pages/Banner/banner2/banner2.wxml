@@ -1,0 +1,25 @@
+<!--pages/Blogs/blog1/blog1.wxml-->
+<view class = "container">
+  <image class="image" src="https://s3.ax1x.com/2021/02/01/yZYZSs.jpg"></image>
+<image class="image" src="https://s3.ax1x.com/2021/02/01/yZYEWj.jpg"></image>
+<image class="image" src="https://s3.ax1x.com/2021/02/01/yZYkFg.jpg"></image>
+<image class="image" src="https://s3.ax1x.com/2021/02/01/yZYAYQ.jpg"></image>
+<image class="image" src="https://s3.ax1x.com/2021/02/01/yZYiTS.jpg"></image>
+<image class="image" src="https://s3.ax1x.com/2021/02/01/yZYeln.jpg"></image>
+<image class="image" src="https://s3.ax1x.com/2021/02/01/yZYnO0.jpg"></image>
+
+
+
+  <view class="blank"></view>
+
+  <view class="container">
+    <text class="tag">WeChat Official Account(@ucsb-cssa)</text>
+    <text class="tag">Weibo (@UCSB-CSSA中国学生学者联合会)</text>
+    <text class="tag">BiliBili Video Platform (@UCSBCSSA)</text>
+    <text class="tag">Instagram (@ucsb_cssa)</text>
+    <text class="tag">Facebook (@Ucsb Cssa)</text>
+    <text class="tag">YouTube (@CSSA UCSB)</text>
+  </view>
+
+  <view class="blank"></view>
+</view>

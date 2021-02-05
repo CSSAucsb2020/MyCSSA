@@ -52,7 +52,7 @@ page{
 
 .enter{
   position: absolute;
-  bottom: 400rpx;
+  bottom: 40rpx;
   right: 30rpx;
   font-weight: bold;
 }

@@ -9,27 +9,27 @@
   <view class="button-image">
     <view class="txt" wx:for="{{selectionCathay}}" wx:key="index">
     <view wx:if="{{index%2==0}}">
-      <image class="im" src="{{item._icon_url}}" bindtap="{{item.navigator}}" data-id="{{index}}"></image>
+      <image class="im" style="width: {{imWidth}}rpx; height: {{imHeight}}rpx" src="{{item._icon_url}}" bindtap="{{item.navigator}}" data-id="{{index}}"></image>
     </view>
     <view wx:if="{{index%2==1}}">
-      <image class="im1" src="{{item._icon_url}}" bindtap="{{item.navigator}}" data-id="{{index}}"></image>
+      <image class="im1"  style="width: {{imWidth}}rpx; height: {{imHeight}}rpx" src="{{item._icon_url}}" bindtap="{{item.navigator}}" data-id="{{index}}"></image>
     </view>
     </view>
     </view>
+    <button class="enterText" bindtap="onNavigate">查看你的报告>>></button>
 </view>
-<!-- <button bindtap="EnterSummer">进入夏天</button> <!--进入夏天--> -->
+<!-- <button bindtap="EnterSummer">进入夏天</button> <!--进入夏天-->
 <view wx:if="{{inChina<1}}">
   <!-- selection0 -->
   <view class="button-image">
     <view class="txt" wx:for="{{selectionUS}}" wx:key="index">
       <view wx:if="{{index%2==0}}">
-      <image class="im" src="{{item._icon_url}}" bindtap="{{item.navigator}}" data-id="{{index}}"></image>
+      <image class="im" style="width: {{imWidth}}rpx; height: {{imHeight}}rpx" src="{{item._icon_url}}" bindtap="{{item.navigator}}" data-id="{{index}}"></image>
     </view>
     <view wx:if="{{index%2==1}}">
-      <image class="im1" src="{{item._icon_url}}" bindtap="{{item.navigator}}" data-id="{{index}}"></image>
+      <image class="im1"  style="width: {{imWidth}}rpx; height: {{imHeight}}rpx" src="{{item._icon_url}}" bindtap="{{item.navigator}}" data-id="{{index}}"></image>
     </view>
     </view>
     </view>
+    <button class="enterText" bindtap="onNavigate">查看你的报告>>></button>
 </view>
-
-

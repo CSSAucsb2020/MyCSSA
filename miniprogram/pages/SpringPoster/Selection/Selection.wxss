@@ -23,15 +23,15 @@
 .im{
   margin-left: 360rpx;
   align-self: center;
-  width: 250rpx;
-  height: 250rpx;
+  width: var(--imWidth--)rpx;
+  height: var(--imHeight--)rpx;
 }
 
 .im1{
   margin-left: 120rpx;
   align-self: center;
-  width: 250rpx;
-  height: 250rpx;
+  /* width: var(--imWidth--)rpx;
+  height: var(--imHeight--)rpx; */
 }
 
 .text{
